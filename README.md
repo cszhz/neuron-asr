@@ -3,15 +3,18 @@
    - Public access
    - Security Group: 3003/TCP
    - EBS volume:200G
-3. Download docker image and model files
+2. Server
+2.1 SSH to Trn2 instance
+2.2 Download docker image and model files
    ```
    chmod +x setup.sh
    ./setup.sh
    ```
-4. Start docker container
+2.3 Start docker container
    ```
    chmod +x run.sh
    ./run.sh
    ```
-5. Install xcode and compile mac client
+3. Mac Client
+Install xcode and compile mac client
 6. Enjoy!
