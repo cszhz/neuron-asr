@@ -1,4 +1,5 @@
-1. Launch a trn2.3xlarge instance with neuron deep learning ami 
+1. Launch a trn2.3xlarge instance
+   - Ubuntu 24.04 Neuron Deep Learning AMI 
    - Public access
    - Security Group: 3003/TCP
    - EBS volume:200G
