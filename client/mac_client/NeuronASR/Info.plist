@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Neuron-ASR needs access to your microphone to record audio for speech recognition.</string>
+	<key>CFBundleName</key>
+	<string>Neuron-ASR</string>
+	<key>CFBundleDisplayName</key>
+	<string>Neuron-ASR Powered By Trainium2</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.qwen3.asr</string>
+	<key>CFBundleVersion</key>
+	<string>1.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>13.0</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleExecutable</key>
+	<string>Neuron-ASR</string>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
+</dict>
+</plist>
