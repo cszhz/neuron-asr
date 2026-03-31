@@ -9,6 +9,7 @@
 
 2.2 Download docker image and model files
    ```
+   source /opt/aws_neuronx_venv_pytorch_2_9/bin/activate
    chmod +x setup.sh
    ./setup.sh
    ```
